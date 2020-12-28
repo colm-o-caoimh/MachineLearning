@@ -20,7 +20,7 @@ $(document).ready(function() {
 				$('#successAlert').text(data.name).show();
 				$('#errorAlert').hide();
 			}
-
+ 
 		});
 
 		event.preventDefault();

@@ -17,7 +17,7 @@ reg = LinearRegression()
 reg.fit(speed_df, power_df)
 #print(reg.predict([[9.746]]))
  
-
+ 
 
 from flask import Flask, render_template, request, jsonify
 
