@@ -35,13 +35,20 @@ def process():
 	# name = request.form['name']
 
 	#if name and wind_speed:
-	if float(wind_speed) > 0:
+	if float(wind_speed) > 24.499 or float(wind_speed) < 0.3:
+		power = 0
+		return jsonify({'name' : float(power)})
 		# power = reg.predict([[float(wind_speed)]])
+		# power = new_model.predict([[float(wind_speed)]])
+		# power = power.item(0)
+
+		# if power < 0:
+		# 	return jsonify({'name' : 0})
+
+	else:
 		power = new_model.predict([[float(wind_speed)]])
 		power = power.item(0)
 
-		if power < 0:
-			return jsonify({'name' : 0})
 
 		return jsonify({'name' : float(power)})
 
