@@ -5,9 +5,9 @@ $(document).ready(function() {
 		$.ajax({
 			data : {
 				name : $('#nameInput').val(),
-				email : $('#emailInput').val()
+				speed : $('#emailInput').val()
 			},
-			type : 'POST',
+			type : 'POST', 
 			url : '/process'
 		})
 		.done(function(data) {
