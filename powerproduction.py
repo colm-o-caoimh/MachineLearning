@@ -18,7 +18,7 @@ import tensorflow.keras as kr
 # reg.fit(speed_df, power_df)
 # #print(reg.predict([[9.746]]))
 
-new_model = kr.models.load_model('my_model.h5')
+new_model = kr.models.load_model('final_model.h5')
 
 from flask import Flask, render_template, request, jsonify
 
