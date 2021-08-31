@@ -1,14 +1,15 @@
-# mls_project2020
-Machine Learning and Statistics project
+# MachineLearning
+Purpose: College Project
+Module: Machine Learning and Statistics
 ***
-In this project I create a web service that uses machine learning to make predictions based on the data set 'powerproduction', found in this repository. The goal is to produce a model that accurately predicts wind turbine power output from wind speed values, as in the data set. 
+In this project I build a web application that uses machine learning to make predictions based on the 'powerproduction' data set, found in this repository. The goal is to produce a model that accurately predicts wind turbine power output from wind speed values. 
 
-The python script contained in the repository uses the Flask microweb framework to create a web service. It is accompanied by the frontend html and separate javascript file to handle the HTTP requests. The web service uses forms submitted using AJAX with jQuery and is based on a structure I found on github.com [1]. The web service enables a user to input values for wind speed and get a response containing the corresponding predicted wind turbine power output based on the model produced above.
+The python script uses the Flask microweb framework to build the application. It allows users to input wind speed values and get a response containing the corresponding predicted wind turbine power output based on the model produced above.
 
 ## In this repository
 
 ### Jupter notebook
-The repository contains a jupyter notebook which details the process I took in producing the model that predicts wind turbine power output. I provide a description of the processes taken to arrive at the model chosen, accompanied by the code used to develop it. I compare regression built models using `scikit-learn` as well as neural network models built using `tensorflow`
+Details the process undertaken to build the predictive model. I describe the journey taken to arrive at the model chosen, with all code and visualization. I compare various regression models using `scikit-learn` and `tensorflow` (for neural network models)
 
 ### powerproduction.py
 Python file which implements the server. The server interacts with Python `Flask`, mapping http requests from the browser to the functions. It also interacts with the html and javascript files in this repository to handle the requests
