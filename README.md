@@ -8,7 +8,7 @@ The python script uses the Flask microweb framework to build the application. It
 ## In this repository
 
 ### Jupter notebook
-Details the process undertaken to build the predictive model. I describe the journey taken to arrive at the model chosen, with all code and visualization. I compare various regression models using `scikit-learn` and `tensorflow` (for neural network models)
+Details the process undertaken to build the predictive model. I describe the journey taken to arrive at the model chosen, with all code and visualizations included. I compare various regression models using `scikit-learn` and `tensorflow` (for neural network models)
 
 ### powerproduction.py
 Python file which implements the server. The server interacts with Python `Flask`, mapping http requests from the browser to the functions. It also interacts with the html and javascript files in this repository to handle the requests
