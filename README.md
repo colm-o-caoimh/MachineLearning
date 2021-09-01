@@ -1,4 +1,4 @@
-# MachineLearning
+# MachineLearningProject
 Purpose: College Project | Module: Machine Learning and Statistics
 ***
 In this project I build a web application that uses machine learning to make predictions based on the 'powerproduction' data set, found in this repository. The goal is to produce a model that accurately predicts wind turbine power output from wind speed values. 
